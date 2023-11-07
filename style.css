@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500;600&family=Playpen+Sans:wght@300&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -381,7 +384,7 @@ position: inherit;
 #center {
   position: absolute;
   height: 80%;
-  background-color: #22bfa0;
+  background-color: #05725d;
   width: 60%;
   /* border: 2px solid rgb(142, 26, 26); */
   overflow: hidden;
@@ -417,7 +420,7 @@ img {
   width: 100%;
   box-shadow: #cf93f4;
   border-radius: 12px;
-  box-shadow: 2px 3px 5px #000000;
+  /* box-shadow: 2px 3px 5px #000000; */
 }
 
 
@@ -429,8 +432,8 @@ img {
   /* display: flex; */
   justify-content: content;
   align-items: center;
-  left: 14%;
-  width: 650px;
+  left: 12%;
+  width: 100%;
   height: 100px;
   overflow: hidden;
   text-align: center;
@@ -440,12 +443,13 @@ padding: 10px;
   
 
 }
+
 .text h1{
   position: absolute;
   top: 100px;
   font-size: 60px;
-  color: #ede1de;
-
+  color: #99f1f6;
+font-family: Edu Tas Begginer;
 }
 
 .text h1:hover{
@@ -456,15 +460,17 @@ padding: 10px;
 .about{
   position: absolute;
   z-index: 4;
-  width: 500px;
-  height: 240px;
+  width: 600px;
+  height: 290px;
 justify-content: center;
 align-items: center;
-/* background-color: #cf93f4; */
+border-radius: 10px;
+padding: 8px;
+background-color: #44f4c5;
 right: 7%;
 overflow: hidden;
 
-bottom: 7%;
+bottom: 10%;
 }
 
 
@@ -473,6 +479,8 @@ bottom: 7%;
   font-size: 24px;
   position: absolute;
   left: 100%;
-
-  color: #ffffff;
+font-family: Playpen Sans;
+font-weight: bolder;
+  color: #050404;
 }
+

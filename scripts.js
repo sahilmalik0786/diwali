@@ -26,6 +26,46 @@ var menuButton = document.querySelector('.menu-button');
         },
       },
     });
+    
+    var typed = new Typed('#element', {
+    
+      strings: ['HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ','HAPPY ', 
+      'शुभ', 'HAPPY' , 'शुभ', 'HAPPY' ,'शुभ','HAPPY','शुभ'],
+      typeSpeed: 80,
+      
+    },);
 
   
     gsap.from("#img1", {
@@ -62,3 +102,5 @@ var menuButton = document.querySelector('.menu-button');
       duration:2,
       y:50
     })
+
+1111111111
